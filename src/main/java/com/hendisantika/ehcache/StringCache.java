@@ -27,9 +27,9 @@ public class StringCache {
         Cache cache = manager.getCache(CACHE_NAME);
 
         try {
-            push(cache, "uzr", "esk");
+            push(cache, "shinobi", "naruto");
 
-            System.out.println(get(cache, "uzr"));
+            System.out.println(get(cache, "shinobi"));
         } finally {
             manager.shutdown();
         }
